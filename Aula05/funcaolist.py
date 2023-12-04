@@ -22,7 +22,7 @@ def soma2(*valores):
 
 def soma3(**num):
     a,b,c = num
-    rs = a+b+c
+    rs = num[a]+num[b]+num[c]
     print(rs)
 
 

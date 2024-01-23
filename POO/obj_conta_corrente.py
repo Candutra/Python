@@ -1,5 +1,6 @@
 from class_conta_corrente import ContaCorrente as CC
 
-Conta = CC()
+conta = CC()
 
-Conta.abrirConta(12,012,141244-10,"dutra",100,200)
+conta.abrirConta(12,12,12424-10,"dutra",3500,1000)
+conta.sacar(4000)
